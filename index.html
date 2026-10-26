@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090806">
+<meta name="description" content="Free Fire gaming videos, guides and community links.">
+<title>RenzokuX Gaming | Free Fire Hub</title>
+<style>
+:root{--bg:#080806;--panel:#100e09;--gold:#e7bd39;--gold2:#9c7412;--text:#f7f4e9;--muted:#a9a49a;--line:#3a2d10;--green:#54c77a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#191506 0,#080806 48%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:10;background:#090806ed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{max-width:1100px;margin:auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:950;letter-spacing:2px}.brand span{color:var(--gold)}nav{display:flex;gap:16px;flex-wrap:wrap}a{color:inherit;text-decoration:none}nav a{font-size:13px;color:var(--muted)}nav a:hover{color:var(--gold)}
+.wrap{max-width:1100px;margin:auto;padding:24px 18px 60px}.hero{padding:34px 0 28px;display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center}.eyebrow{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:3px}.hero h1{font-size:clamp(32px,6vw,62px);line-height:1.02;margin:12px 0}.hero h1 em{color:var(--gold);font-style:normal}.hero p{color:var(--muted);line-height:1.7;max-width:570px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-flex;justify-content:center;align-items:center;border:1px solid var(--gold2);border-radius:9px;padding:12px 16px;font-weight:850;font-size:13px;cursor:pointer;background:linear-gradient(135deg,#e7bd39,#9b7417);color:#130f03}.btn.secondary{background:#0e0c08;color:var(--text);border-color:var(--line)}.hero-art{min-height:235px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#29200a,#0e0c08 60%);display:grid;place-items:center;text-align:center;padding:20px;box-shadow:0 18px 55px #0008}.hero-art .symbol{font-size:72px;filter:drop-shadow(0 0 16px #d4a62a66)}.hero-art strong{display:block;letter-spacing:4px;color:var(--gold);font-size:20px}.hero-art small{color:var(--muted)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:28px 0 16px}.section-head h2{margin:0;font-size:22px;letter-spacing:1px}.section-head p{margin:0;color:var(--muted);font-size:12px}.search{width:100%;background:#0e0c08;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:14px 15px;font-size:15px;outline:none;margin:0 0 16px}.search:focus,input:focus,textarea:focus{border-color:var(--gold)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.chip{background:#100e09;color:var(--muted);border:1px solid var(--line);padding:9px 13px;border-radius:8px;font-size:12px;font-weight:800;cursor:pointer}.chip.active{background:var(--gold);color:#140f03;border-color:var(--gold)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:linear-gradient(150deg,#151109,#0b0a07)}.thumb{height:150px;background:linear-gradient(135deg,#3a2b08,#12100a);display:grid;place-items:center;position:relative;color:var(--gold);font-size:44px}.thumb img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.play{position:absolute;border-radius:50%;background:#f7f0d9;color:#161104;width:46px;height:46px;display:grid;place-items:center;font-size:18px;box-shadow:0 5px 20px #0008}.card-body{padding:15px}.tag{font-size:10px;color:var(--gold);font-weight:900;letter-spacing:1.5px}.card h3{font-size:16px;margin:8px 0}.card p{font-size:12px;line-height:1.6;color:var(--muted);margin:0 0 13px}.card .btn{width:100%;padding:10px}.empty{display:none;color:var(--muted);padding:24px;text-align:center;border:1px dashed var(--line);border-radius:12px}
+.community{margin-top:34px;padding:25px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(110deg,#191304,#0c0a07);display:flex;justify-content:space-between;align-items:center;gap:18px}.community h2{margin:0 0 8px}.community p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}.telegram{background:#168bd0;color:white;border:0}
+footer{border-top:1px solid var(--line);padding:22px 18px;color:var(--muted);text-align:center;font-size:12px}
+.admin{margin-top:34px;border:1px solid var(--line);border-radius:14px;background:#0d0b07;padding:18px}.admin summary{cursor:pointer;color:var(--gold);font-weight:900;letter-spacing:1px}.admin-note{color:var(--muted);font-size:12px;line-height:1.6}.admin-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}input,textarea,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;background:#080806;color:var(--text);font:inherit;font-size:13px}textarea{min-height:75px;resize:vertical}.wide{grid-column:1/-1}.admin-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.admin-list{display:grid;gap:8px;margin-top:15px}.admin-item{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:12px}.danger{background:#3a1010;color:#ffb7b7;border:1px solid #7b2929}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding-top:24px}.hero-art{min-height:175px}.hero-art .symbol{font-size:54px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.thumb{height:120px}.community{align-items:flex-start;flex-direction:column}.nav{align-items:flex-start;flex-direction:column}.admin-grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+@media(max-width:430px){.cards{grid-template-columns:1fr}.thumb{height:170px}.section-head{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="nav"><a class="brand" href="#"><span>RX</span> GAMING HUB</a><nav><a href="#videos">VIDEOS</a><a href="#community">TELEGRAM</a><a href="#admin">ADMIN</a></nav></div></header>
+<main class="wrap">
+<section class="hero">
+ <div><div class="eyebrow">// FREE FIRE COMMUNITY</div><h1>PLAY SMART.<br><em>LEVEL UP.</em></h1><p>Free Fire gameplay, tips, highlights and creator videos — all in one place. Open a video card to watch the linked video or visit our community.</p><div class="actions"><a class="btn" href="#videos">EXPLORE VIDEOS ↓</a><a id="heroTelegram" class="btn secondary" href="https://t.me/ZXASDAI_bot" target="_blank" rel="noopener">JOIN TELEGRAM ↗</a></div></div>
+ <div class="hero-art"><div><div class="symbol">⚡</div><strong>RENZOKUX</strong><small>GAMING • CLIPS • GUIDES</small></div></div>
+</section>
+<section id="videos">
+ <div class="section-head"><div><div class="eyebrow">// CONTENT LIBRARY</div><h2>FEATURED VIDEOS</h2></div><p id="count">3 VIDEOS</p></div>
+ <input id="search" class="search" type="search" placeholder="⌕  Search videos..." aria-label="Search videos">
+ <div class="filters" id="filters"><button class="chip active" data-filter="All">ALL VIDEOS</button><button class="chip" data-filter="Gameplay">GAMEPLAY</button><button class="chip" data-filter="Tips">TIPS & TRICKS</button><button class="chip" data-filter="Shorts">SHORTS</button></div>
+ <div class="cards" id="cards"></div><div class="empty" id="empty">No videos match your search.</div>
+</section>
+<section id="community" class="community"><div><h2>JOIN THE COMMUNITY</h2><p>Get updates, new video alerts and gaming announcements on Telegram.</p></div><a id="telegramButton" class="btn telegram" href="https://t.me/ZXASDAI_bot" target="_blank" rel="noopener">✈ JOIN TELEGRAM</a></section>
+<details id="admin" class="admin"><summary>⚙ ADMIN PANEL — MANAGE VIDEO CARDS</summary>
+ <p class="admin-note"><b>Important:</b> This simple admin panel saves changes only in this browser on this device (local storage). It is not a secure online admin system and changes will not automatically appear for other visitors. To publish changes for everyone, update this file and upload it again. Never put passwords or secret API keys in this static website.</p>
+ <div class="admin-grid">
+  <input id="vTitle" placeholder="Video title">
+  <select id="vCategory"><option>Gameplay</option><option>Tips</option><option>Shorts</option></select>
+  <input id="vUrl" class="wide" placeholder="YouTube/video URL (https://...)">
+  <input id="vImage" class="wide" placeholder="Optional thumbnail image URL (https://...)">
+  <textarea id="vDescription" class="wide" placeholder="Short description"></textarea>
+  <input id="tgUrl" class="wide" placeholder="Telegram channel URL, e.g. https://t.me/yourchannel">
+ </div>
+ <div class="admin-actions"><button class="btn" id="saveVideo">SAVE VIDEO</button><button class="btn secondary" id="saveTelegram">SAVE TELEGRAM LINK</button><button class="btn secondary" id="exportData">EXPORT CONTENT JSON</button><button class="btn danger" id="resetData">RESET DEMO CONTENT</button></div>
+ <div id="adminMessage" class="admin-note" aria-live="polite"></div><div id="adminList" class="admin-list"></div>
+</details>
+</main>
+<footer>© <span id="year"></span> RenzokuX Gaming Hub · Fan-made community website. Not affiliated with Garena.</footer>
+<script>
+const KEY='rxGamingVideosV1', TGKEY='rxGamingTelegramV1';
+const demo=[
+ {id:'d1',title:'Free Fire Gameplay Highlights',category:'Gameplay',description:'Add your best match highlights and gameplay clips here.',url:'https://www.youtube.com/',image:''},
+ {id:'d2',title:'Tips & Tricks for Beginners',category:'Tips',description:'Share helpful, fair-play tips and beginner guides.',url:'https://www.youtube.com/',image:''},
+ {id:'d3',title:'Free Fire Shorts Collection',category:'Shorts',description:'Quick clips, funny moments and short-form videos.',url:'https://www.youtube.com/shorts/',image:''}
+];
+let videos=loadVideos(), filter='All';
+function loadVideos(){try{const x=JSON.parse(localStorage.getItem(KEY));return Array.isArray(x)?x:demo.slice()}catch(e){return demo.slice()}}
+function safeUrl(url){try{const u=new URL(url);return ['https:','http:'].includes(u.protocol)?u.href:'#'}catch(e){return '#'}}
+function getTg(){return localStorage.getItem(TGKEY)||'https://t.me/ZXASDAI_bot'}
+function setTgLinks(){const u=safeUrl(getTg());document.getElementById('telegramButton').href=u;document.getElementById('heroTelegram').href=u}
+function render(){
+ const q=document.getElementById('search').value.toLowerCase().trim();
+ const shown=videos.filter(v=>(filter==='All'||v.category===filter)&&(`${v.title} ${v.description} ${v.category}`).toLowerCase().includes(q));
+ document.getElementById('cards').innerHTML=shown.map(v=>`<article class="card"><a class="thumb" href="${safeUrl(v.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(v.title)}">${v.image&&safeUrl(v.image)!=='#'?`<img src="${safeUrl(v.image)}" alt="" loading="lazy" onerror="this.remove()">`:''}<span>▶</span></a><div class="card-body"><div class="tag">${esc(v.category.toUpperCase())}</div><h3>${esc(v.title)}</h3><p>${esc(v.description||'Watch this video.')}</p><a class="btn secondary" href="${safeUrl(v.url)}" target="_blank" rel="noopener">WATCH VIDEO ↗</a></div></article>`).join('');
+ document.getElementById('empty').style.display=shown.length?'none':'block';document.getElementById('count').textContent=`${shown.length} VIDEO${shown.length===1?'':'S'}`;renderAdmin();
+}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+document.getElementById('search').addEventListener('input',render);
+document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('button[data-filter]');if(!b)return;filter=b.dataset.filter;document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active',x===b));render()});
+document.getElementById('saveVideo').addEventListener('click',()=>{
+ const title=document.getElementById('vTitle').value.trim(),url=document.getElementById('vUrl').value.trim(),category=document.getElementById('vCategory').value;
+ if(!title||safeUrl(url)==='#'){msg('Please enter a title and a valid http/https video URL.');return}
+ videos.unshift({id:'v'+Date.now(),title,category,url,image:document.getElementById('vImage').value.trim(),description:document.getElementById('vDescription').value.trim()});
+ localStorage.setItem(KEY,JSON.stringify(videos));['vTitle','vUrl','vImage','vDescription'].forEach(id=>document.getElementById(id).value='');msg('Video added in this browser.');render();
+});
+document.getElementById('saveTelegram').addEventListener('click',()=>{const u=document.getElementById('tgUrl').value.trim();if(!u||safeUrl(u)==='#'){msg('Please enter a valid Telegram URL.');return}localStorage.setItem(TGKEY,u);setTgLinks();msg('Telegram link saved in this browser only.')});
+function renderAdmin(){const el=document.getElementById('adminList');if(!el)return;el.innerHTML=videos.map(v=>`<div class="admin-item"><span><b>${esc(v.title)}</b><br>${esc(v.category)}</span><button class="chip" data-delete="${esc(v.id)}">DELETE</button></div>`).join('');el.querySelectorAll('[data-delete]').forEach(b=>b.addEventListener('click',()=>{videos=videos.filter(v=>v.id!==b.dataset.delete);localStorage.setItem(KEY,JSON.stringify(videos));msg('Video deleted in this browser.');render()}))}
+function msg(t){document.getElementById('adminMessage').textContent=t}
+document.getElementById('exportData').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({videos,telegram:getTg()},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='gaming-site-content.json';a.click();URL.revokeObjectURL(a.href);msg('Content JSON exported. Keep it safe.')});
+document.getElementById('resetData').addEventListener('click',()=>{if(!confirm('Reset video cards to demo content on this browser?'))return;videos=demo.slice();localStorage.setItem(KEY,JSON.stringify(videos));render();msg('Demo content restored.')});
+document.getElementById('year').textContent=new Date().getFullYear();setTgLinks();render();
+</script>
+</body>
+</html>
